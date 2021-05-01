@@ -8,14 +8,11 @@ var pizzaItems = [];
 
 console.log("NEW ITERATION");
 
-console.log(menuItems);
+//console.log(menuItems);
 
-console.log(menuItems[0].name);
-
-//Splits the entire list of items into separate lists of each type
+//Splits the entire list of items into separate lists of each respective type
 for (var i = 0; i < menuItems.length; i++) {
   if (menuItems[i].type === "starters") {
-    //test prints, will later add to html using id tag
     starterItems.push(menuItems[i]);
   }
   if (menuItems[i].type === "pasta") {
@@ -26,8 +23,12 @@ for (var i = 0; i < menuItems.length; i++) {
   }
 }
 
-/*
-function compareNumbers(a, b) {
-  return a - b;
+//Sort items using a sort function and a custom function sorting order
+starterItems.sort(leastToGreatest);
+pastaItems.sort(leastToGreatest);
+pizzaItems.sort(leastToGreatest);
+
+//Sorting function order from least to greatest
+function leastToGreatest(a, b) {
+  return a.menuOrder - b.menuOrder;
 }
-*/
