@@ -8,8 +8,6 @@ var pizzaItems = [];
 
 console.log("NEW ITERATION");
 
-//console.log(menuItems);
-
 //Splits the entire list of items into separate lists of each respective type
 for (var i = 0; i < menuItems.length; i++) {
   if (menuItems[i].type === "starters") {
@@ -27,6 +25,8 @@ for (var i = 0; i < menuItems.length; i++) {
 starterItems.sort(leastToGreatest);
 pastaItems.sort(leastToGreatest);
 pizzaItems.sort(leastToGreatest);
+
+function itemsToHTML(listOfItems, idName) {}
 
 //Sorting function order from least to greatest
 function leastToGreatest(a, b) {
