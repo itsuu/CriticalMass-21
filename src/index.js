@@ -32,9 +32,9 @@ itemsToHTML(pizzaItems, "pizza", "item-list");
 
 //event listener for checkbox changes to update the menu
 document
-  .getElementById("spicy checkbox")
+  .getElementById("spicy-checkbox")
   .addEventListener("change", function () {
-    var spicyCheck = document.getElementById("spicy checkbox").checked;
+    var spicyCheck = document.getElementById("spicy-checkbox").checked;
     updateMenu(spicyCheck);
   });
 
@@ -59,7 +59,7 @@ function itemsToHTML(listOfItems, sectionIdName, listIdName) {
   //Only add items to the list if they exist in the list
   if (listOfItems.length !== 0 || listOfItems !== undefined) {
     var section = document.getElementById(sectionIdName);
-    var spicyCheck = document.getElementById("spicy checkbox").checked;
+    var spicyCheck = document.getElementById("spicy-checkbox").checked;
     var item = "<dl id=" + listIdName + ">";
     //adds all the items from their respective item list
     for (var i = 0; i < listOfItems.length; i++) {

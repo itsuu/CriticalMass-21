@@ -2,7 +2,7 @@ html {
   background-image: url("../assets/ingredient-background3.png");
 }
 
-@media all and (max-width: 1925px) {
+@media all and (min-width: 1925px) {
   body {
     font-family: sans-serif;
     background-image: url("../assets/paper-background.png");
@@ -14,8 +14,8 @@ html {
   }
 
   .spicy:before {
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
     content: "";
     background-image: url("../assets/spicy.svg");
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ html {
     margin-right: 50px;
   }
 
-  dt {
+  #food-name {
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -56,7 +56,7 @@ html {
     margin-right: 50px;
   }
 
-  dd {
+  #food-description {
     font-size: 15px;
     text-align: left;
     margin-left: 50px;
@@ -65,7 +65,91 @@ html {
 
   #spicy-div {
     text-align: center;
-    size: large;
+  }
+
+  input {
+    width: 25px;
+    height: 25px;
+  }
+
+  #spicy-label {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width: 1925px) {
+  body {
+    font-family: sans-serif;
+    background-image: url("../assets/paper-background.png");
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
+  .spicy:before {
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-image: url("../assets/spicy.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 3px;
+    position: relative;
+    top: 2px;
+  }
+
+  .disclaimer.spicy {
+    list-style-type: none;
+    fill: red;
+  }
+
+  h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #food-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #food-description {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #spicy-div {
+    text-align: center;
+  }
+
+  input {
+    width: 30px;
+    height: 30px;
+  }
+
+  #spicy-label {
+    font-size: 30px;
   }
 }
 
@@ -87,6 +171,20 @@ html {
   body {
     margin-left: 300px;
     margin-right: 300px;
+  }
+
+  .spicy:before {
+    width: 30px;
+    height: 30px;
+  }
+
+  input {
+    width: 30px;
+    height: 30px;
+  }
+
+  #spicy-label {
+    font-size: 30px;
   }
 }
 
@@ -120,6 +218,20 @@ html {
   dd {
     font-size: 12px;
   }
+
+  .spicy:before {
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+    width: 50px;
+    height: 50px;
+  }
+
+  #spicy-label {
+    font-size: 50px;
+  }
 }
 
 @media all and (max-width: 580px) {
@@ -130,5 +242,119 @@ html {
 
   dd {
     font-size: 12px;
+  }
+
+  .spicy:before {
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+    width: 50px;
+    height: 50px;
+  }
+
+  #spicy-label {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 485px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  dd {
+    font-size: 12px;
+  }
+
+  .spicy:before {
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+    width: 50px;
+    height: 50px;
+  }
+
+  #spicy-label {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  dd {
+    font-size: 12px;
+  }
+
+  .spicy:before {
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+    width: 50px;
+    height: 50px;
+  }
+
+  #spicy-label {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  dd {
+    font-size: 12px;
+  }
+
+  .spicy:before {
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+    width: 50px;
+    height: 50px;
+  }
+
+  #spicy-label {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 355px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  dd {
+    font-size: 12px;
+  }
+
+  .spicy:before {
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+    width: 50px;
+    height: 50px;
+  }
+
+  #spicy-label {
+    font-size: 50px;
   }
 }
