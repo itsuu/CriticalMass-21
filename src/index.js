@@ -64,7 +64,7 @@ function itemsToHTML(listOfItems, sectionIdName, listIdName) {
     //adds all the items from their respective item list
     for (var i = 0; i < listOfItems.length; i++) {
       var itemInfo;
-      //add the spicy class if spicy
+      //add the spicy items if spicy and vice-versa
       if (listOfItems[i].spicy && spicyCheck) {
         itemInfo =
           '<dt class="disclaimer spicy">' +
@@ -110,7 +110,7 @@ function formatPrice(price) {
   return formattedPrice;
 }
 
-//Sorting function order from least to greatest
+//Sorting function used to order from least to greatest
 function leastToGreatest(a, b) {
   return a.menuOrder - b.menuOrder;
 }
