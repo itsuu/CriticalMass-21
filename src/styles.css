@@ -14,8 +14,8 @@ html {
   }
 
   .spicy:before {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     content: "";
     background-image: url("../assets/spicy.svg");
     background-repeat: no-repeat;
@@ -34,16 +34,24 @@ html {
     font-size: 55px;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   h2 {
     font-size: 40px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 5px;
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  hr {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 2px;
   }
 
   #food-name {
@@ -67,14 +75,15 @@ html {
     text-align: center;
   }
 
-  input {
-    width: 25px;
-    height: 25px;
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
   }
 
   #spicy-label {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    color: red;
   }
 }
 
@@ -90,8 +99,8 @@ html {
   }
 
   .spicy:before {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     content: "";
     background-image: url("../assets/spicy.svg");
     background-repeat: no-repeat;
@@ -110,16 +119,24 @@ html {
     font-size: 55px;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   h2 {
     font-size: 40px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 0px;
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  hr {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 2px;
   }
 
   #food-name {
@@ -150,6 +167,8 @@ html {
 
   #spicy-label {
     font-size: 30px;
+    font-weight: bold;
+    color: red;
   }
 }
 
