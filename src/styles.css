@@ -13,3 +13,15 @@ body {
   position: relative;
   top: 2px;
 }
+
+.disclaimer.spicy {
+  list-style-type: none;
+}
+
+.item-list {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
