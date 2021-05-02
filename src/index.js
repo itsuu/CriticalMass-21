@@ -67,21 +67,21 @@ function itemsToHTML(listOfItems, sectionIdName, listIdName) {
       //add the spicy items if spicy and vice-versa
       if (listOfItems[i].spicy && spicyCheck) {
         itemInfo =
-          '<dt class="disclaimer spicy">' +
+          '<dt id="food-name" class="disclaimer spicy">' +
           listOfItems[i].name +
-          " " +
+          " - " +
           formatPrice(listOfItems[i].price) +
-          "</dt><dd>" +
+          '</dt><dd id="food-description">' +
           listOfItems[i].description +
           "</dd>";
         item += itemInfo;
       } else if (!listOfItems[i].spicy) {
         itemInfo =
-          "<dt>" +
+          '<dt id="food-name">' +
           listOfItems[i].name +
-          " " +
+          " - " +
           formatPrice(listOfItems[i].price) +
-          "</dt><dd>" +
+          '</dt><dd id="food-description">' +
           listOfItems[i].description +
           "</dd>";
         item += itemInfo;
