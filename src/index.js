@@ -30,13 +30,7 @@ itemsToHTML(starterItems, "starters", "item-list");
 itemsToHTML(pastaItems, "pasta", "item-list");
 itemsToHTML(pizzaItems, "pizza", "item-list");
 
-/*
-<dl class="item-list">
-<dt>sds</dt>
-<dd>sdf</dd>
-</dl>
-*/
-
+//function that add items from list to the HTML
 function itemsToHTML(listOfItems, idName, className) {
   //Only add items to the list if they exist
   if (listOfItems.length !== 0 || listOfItems !== undefined) {
