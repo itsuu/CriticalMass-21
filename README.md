@@ -13,9 +13,13 @@
 
 ## Inspiration
 
-1. One work that has recently inspired me was a free and open source app called "Tachiyomi". "Tachiyomi" is an android app that lets users read comics and such using multiple sources on the internet while allowing the user customize features to their needs. What I found the most inspiring about "Tachiyomi" was that it was started by the community of comic/mangas readers due to there not having an option to read while being on a mobile device. Following that, sources used to read comics and such are created by the community from web scraping and then formating the information onto the mobile format. The app today recieves frequent updates that aims to improve usuability.
+1. [Tachiyomi](https://tachiyomi.org/) 
 
-2. Another work that inspired me was another free and open source app called "Youtube Vanced". "Youtube Vanced" is an android app that function essientally like Youtube Premium but without the need to pay. "Youtube Vanced" brings the same features such as no ads, on the go video playing, and music that Youtube Premium offers but for free to android users. What is most inspiring to me about this app is that someone solved the most frustrating issues with the normal Youtube app but creating a tech alternative while keeping it free and available to android users. The saying "create something to solve a problem" is truly defined here by most of the apps I have mentioned.
+    - One work that has recently inspired me was a free and open source app called "Tachiyomi". "Tachiyomi" is an android app that lets users read comics and such using multiple sources on the internet while allowing the user customize features to their needs. What I found the most inspiring about "Tachiyomi" was that it was started by the community of comic/mangas readers due to there not having an option to read while being on a mobile device. Following that, sources used to read comics and such are created by the community from web scraping and then formating the information onto the mobile format. The app today recieves frequent updates that aims to improve usuability.
+
+2. [Youtube Vanced](https://vancedapp.com/) 
+
+    - Another work that inspired me was another free and open source app called "Youtube Vanced". "Youtube Vanced" is an android app that function essientally like Youtube Premium but without the need to pay. "Youtube Vanced" brings the same features such as no ads, on the go video playing, and music that Youtube Premium offers but for free to android users. What is most inspiring to me about this app is that someone solved the most frustrating issues with the normal Youtube app but creating a tech alternative while keeping it free and available to android users. The saying "create something to solve a problem" is truly defined here by most of the apps I have mentioned.
 
 ## Focus
 
