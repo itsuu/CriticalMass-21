@@ -1,11 +1,11 @@
 html {
-  background-image: url("../assets/ingredient-background3.png");
+  background-image: url("../assets/backgrounds/ingredient-background3.png");
 }
 
 @media all and (min-width: 1925px) {
   body {
     font-family: sans-serif;
-    background-image: url("../assets/paper-background.png");
+    background-image: url("../assets/backgrounds/paper-background.png");
     background-color: white;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -17,7 +17,7 @@ html {
     width: 30px;
     height: 30px;
     content: "";
-    background-image: url("../assets/spicy.svg");
+    background-image: url("../assets/icons/spicy.svg");
     background-repeat: no-repeat;
     display: inline-block;
     padding-right: 3px;
@@ -31,15 +31,16 @@ html {
   }
 
   h1 {
-    font-size: 55px;
+    font-family: "Italianno";
+    font-size: 85px;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 15px;
   }
 
   h2 {
-    font-style: italic;
-    font-size: 40px;
+    font-family: "Italianno";
+    font-size: 65px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 0px;
@@ -91,7 +92,7 @@ html {
 @media all and (max-width: 1925px) {
   body {
     font-family: sans-serif;
-    background-image: url("../assets/paper-background.png");
+    background-image: url("../assets/backgrounds/paper-background.png");
     background-color: white;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -103,7 +104,7 @@ html {
     width: 30px;
     height: 30px;
     content: "";
-    background-image: url("../assets/spicy.svg");
+    background-image: url("../assets/icons/spicy.svg");
     background-repeat: no-repeat;
     display: inline-block;
     padding-right: 3px;
@@ -117,15 +118,16 @@ html {
   }
 
   h1 {
-    font-size: 55px;
+    font-family: "Italianno";
+    font-size: 85px;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 15px;
   }
 
   h2 {
-    font-style: italic;
-    font-size: 40px;
+    font-family: "Italianno";
+    font-size: 65px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 0px;
